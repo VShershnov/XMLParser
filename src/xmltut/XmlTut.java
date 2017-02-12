@@ -21,7 +21,7 @@ public class XmlTut {
             // Создается построитель документа
             DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             // Создается дерево DOM документа из файла
-            Document document = documentBuilder.parse("BookCatalog.xml");
+            Document document = documentBuilder.parse("other.xml");
  
             // Получаем корневой элемент
             Node root = document.getDocumentElement();
